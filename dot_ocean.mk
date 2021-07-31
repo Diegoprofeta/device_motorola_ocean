@@ -21,7 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common DotOS stuff
 $(call inherit-product, vendor/dot/config/common.mk)
-DOT_OFFICIAL := true
 
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
